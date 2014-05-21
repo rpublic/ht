@@ -43,3 +43,5 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
 end
+
+ruby "2.1.2"
