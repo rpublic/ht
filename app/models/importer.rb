@@ -36,7 +36,7 @@ class Importer
       })
 
       MediaUrl.create({ 
-        :url => result['url'], 
+        :url => result['media_url'] && result['media_url']['url'], 
         :case_id => c.case_id
       })
     end
